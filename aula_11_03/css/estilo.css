@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-image: url("https://img.freepik.com/vetores-gratis/banner-de-matriz-de-codigo-binario-digital-com-desenho-de-numeros-decrescentes_1017-54560.jpg?t=st=1741698795~exp=1741702395~hmac=90e5e1e3d1ba2ee35eef360b405f8f2df9f5f2ae3d6a3cc384cbb5ff9531579e&w=1380");
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #a7c4c9;
+}
+
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1.5s ease-out;
+    transition: all 0.3s ease; 
+}
+
+
+section:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
+    background-color: #f9f9f9; 
+}
+
+
+section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #2d3a3a;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #777;
+}
+
+
+footer {
+    background-color: #2d3a3a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
