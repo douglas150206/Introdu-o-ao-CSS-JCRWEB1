@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border: 3px solid #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000; 
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  button.adicionar {
+    background-color: #28a745;
+  }
+  
+  button.adicionar:hover {
+    background-color: #218838;
+  }
+  
+  button.editar {
+    background-color: #007bff;
+  }
+  
+  button.editar:hover {
+    background-color: #0069d9;
+  }
+  
+  button.excluir {
+    background-color: #dc3545;
+  }
+  
+  button.excluir:hover {
+    background-color: #c82333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: #f9f9f9;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li .botoes {
+    display: flex;
+    gap: 5px;
+  }
+  
